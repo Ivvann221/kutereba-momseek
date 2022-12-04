@@ -1,0 +1,77 @@
+.header {
+    margin-top: 40px;
+
+    &__logo {
+        margin-right: 30px;
+    }
+
+    &__language {
+        flex-grow: 3;
+        cursor: pointer;
+        position: relative;
+        :hover .sublank{
+            display: block;
+            
+        }
+
+        &_text {
+            margin: 0 6px 0 10px;
+        }
+    }
+    .sublank{
+        position: absolute;
+        top: 40px;
+        left: 0;
+        display: none;
+        li{
+            cursor: pointer;
+            padding: 5px 0 0 28px;
+
+        }
+    }
+
+    &__button-one {
+        padding: 9px 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        color: #FFFFFF;
+        background: #1E3173;
+        border-radius: 24px;
+        text-decoration: none;
+        margin-right: 12px;
+    }
+
+    &__button-two {
+        padding: 9px 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        color: #1E3173;
+        border: 2px solid #1E3173;
+        border-radius: 24px;
+        text-decoration: none;
+        margin-right: 31px;
+    }
+
+    &__exit {
+        &_icon {
+            margin-right: 10px;
+        }
+
+        &_text {
+            a{
+                text-decoration: none;
+                font-family: 'Roboto';
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 1.2;
+                color: #000000;
+            }
+        }
+    }
+}
