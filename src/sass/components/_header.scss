@@ -1,5 +1,6 @@
 .header {
     padding-top: 40px;
+    padding-bottom: 40px;
     background: url('/img/Rectangle 2.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -12,23 +13,26 @@
     &__language {
         cursor: pointer;
         flex-grow: 3;
-        position: relative;
-         :hover .sublank{
-            display: block;
-         }
 
         &_text {
             margin: 0 6px 0 10px;
+            position: relative;
+            &:hover .sublank{
+                display: block;
+             }
+             &:hover .header__language_arrow{
+                transform: rotate(45deg);
+             }
         }
     }
     .sublank{
         position: absolute;
-        top: 40px;
+        top: 15px;
         left: 0;
         display: none;
         li{
             cursor: pointer;
-            padding: 5px 0 0 28px;
+            padding: 5px 0 0 10px;
 
         }
     }
