@@ -1,18 +1,21 @@
 .header {
-    margin-top: 40px;
+    padding-top: 40px;
+    background: url('/img/Rectangle 2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
     &__logo {
         margin-right: 30px;
     }
 
     &__language {
-        flex-grow: 3;
         cursor: pointer;
+        flex-grow: 3;
         position: relative;
-        :hover .sublank{
+         :hover .sublank{
             display: block;
-            
-        }
+         }
 
         &_text {
             margin: 0 6px 0 10px;
