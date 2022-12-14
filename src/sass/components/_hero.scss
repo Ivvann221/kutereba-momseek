@@ -1,0 +1,76 @@
+.hero {
+    background: linear-gradient(102.5deg, #FFF6DA 0%, #FFDEF2 100%);
+&__items{
+    padding-top: 37px;
+    padding-bottom: 60px;
+
+    &_one {
+        .title {
+            margin-top: 15px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 120%;
+            background: linear-gradient(256.23deg, #000000 0%, #000000 98.75%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+    }
+        .subtitle {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 38px;
+            color: #000000;
+        }
+
+        .form-select {
+            cursor: pointer;
+            margin-top: 54px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 24px;
+            color: #000000;
+            border-radius: 32px;
+            height: 64px;
+            background-image: url("../img/line.svg");
+            :focus{
+                box-shadow: none;
+                border: none;
+            }
+        
+         
+        }
+        .form{
+           
+            .image{
+                position: absolute;
+                left: 30px;
+                bottom: 16px;
+            }
+        }
+
+        #icon {
+          padding-left: 58px;
+                }
+    }
+    .btn{
+        margin-top: 44px;
+        width: 100%;
+        background: #1E3173;
+border-radius: 32px;
+padding: 20px 20px;
+color: #FFFFFF;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 24px;
+    }
+}
