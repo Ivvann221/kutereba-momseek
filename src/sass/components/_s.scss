@@ -1,0 +1,158 @@
+.s {
+
+		margin-top: 100px;
+
+		&__content {
+
+			// .s__content_title
+
+			&_title {
+                font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 100%;
+
+color: #000000;
+			}
+
+			// .s__content_subtitle
+
+			&_subtitle {
+                font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+color: #000000;
+margin-top: 10px;
+			}
+		}
+}
+
+.column-s {
+
+		// .column-s__one
+
+		
+
+			// .column-s__one_line
+
+			&__line {
+                border-bottom: 3px solid #1E3173;
+                margin-top: 38px;
+			}
+
+			// .column-s__one_title
+
+			&__title {
+                font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 100%;
+margin-top: 16px;
+color: #000000;
+			}
+
+			// .column-s__one_item
+
+			&__item {
+			}
+		
+}
+
+.item {
+
+		margin-top: 24px;
+
+		&__date {
+            font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 120%;
+color: #000000;
+
+		}
+
+		// .item__text
+
+		&__text {
+            font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 120%;
+margin-bottom: 44px;
+color: #1E3173;
+		}
+}
+.item {
+
+		// .item__comment
+
+		&__comment {
+            font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+
+color: #000000;
+		}
+        
+
+		// .item__data
+
+		&__data {
+            margin-top: 23px;
+            margin-bottom: 51px;
+
+			// .item__data_name
+
+			&_name {
+			
+
+			font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 120%;
+margin-left: 10px;
+
+
+color: #1E3173;
+            }
+			&_text {
+                font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 120%;
+margin-left: 12px;
+
+
+color: #000000;
+
+			}
+
+			// .item__data_kategory
+
+			&_kategory {
+                font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 120%;
+margin-left: 18px;
+
+border-bottom: 1px solid #000;
+
+color: #000000;
+			}
+		}
+}
+

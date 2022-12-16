@@ -63,6 +63,8 @@ a{
         margin-right: 12px;
         &:hover{
             color: #FFFFFF;
+            background-color: #0b0e36;
+            transition: 0.8s;
         }
     }
 
@@ -79,7 +81,9 @@ a{
         text-decoration: none;
         margin-right: 31px;
         &:hover{
-            color: #1E3173;
+            color: #FFFFFF;
+            background-color: #0b0e36;
+            transition: 0.8s;
         }
     }
 

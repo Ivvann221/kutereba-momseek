@@ -1,4 +1,4 @@
-.for-parents {
+.for-babysitters {
   
 
     // .for-parents__content
@@ -6,23 +6,28 @@
     &__content {
         margin-top: 64px !important;
         height: 515px ; 
-        background-image: url('/img/for-parents.png');
-        background-position: center;
+        background-image: url('/img/image 7.png');
+        background-position: 100%;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: auto 100%;
+
         border-radius: 12px;
-        padding: 0;
+position: relative;
+        padding: 40px 35px 30px 40px;
+        z-index: 100;
+        overflow: hidden;
        
        
 .gradient{
-    border-radius: 12px;
-    width: 100%;
-    height: 100%;
-    padding: 40px 35px 30px 40px;
-    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.07) 0%, rgba(0, 0, 0, 0.29) 100%);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: absolute;
+    top: -100px;
+    left: -200px;
+  width: 900px;
+  height: 900px;
+  border-radius: 50%;
+  background-color: #1E3173;
+  z-index: -199;
+    
 }
 
 
@@ -34,9 +39,8 @@
         font-size: 22px;
         line-height: 100%;
         color: #FFFFFF;
+        z-index: 100;
     }
-
-    // .for-parents__content_title
 
     &_subtitle {
         font-family: 'Raleway';
@@ -46,7 +50,7 @@
         line-height: 100%;
         color: #FFFFFF;
         margin-top: 38px;
-        max-width: 520px;
+        
 
     }
 
@@ -54,19 +58,15 @@
 
     &_colums {
         margin-top: 112px;
-        @media screen and (min-width:1400px) {
-            margin-top: 135px;
-            
-        }
     }
 }
 
 }
 
-.item-one {
+.blog-item{
     position: relative;
-padding: 18px 33px 23px 23px;
-    background: #1E3173;
+padding: 18px 20px 23px 23px;
+background: #000000;
     border-radius: 12px;
    
     &:hover{
@@ -74,16 +74,16 @@ padding: 18px 33px 23px 23px;
         color: #1E3173;
         transition: 0.5s;
     }
-    &:hover .item-one__title{
-        color: #1E3173;
+    &:hover .blog-item__title{
+        color: #000000;
         transition: 0.5s;
     }
-    &:hover .item-one__subtitle{
+    &:hover .blog-item__subtitle{
         color: #1E3173;
         transition: 0.5 s;
     }
     &:hover svg path{
-       fill:#1E3173;;
+       fill: #000;;
        transition: 0.5 s;
     }
    

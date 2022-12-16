@@ -1,13 +1,24 @@
 .nav__tabs{
+   
     .item{
+        margin-top: 14px;
         height: 40px;
-        width: 90px;
-        border: 2px solid #000;
-        margin: 12px;
+        padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+       margin-bottom: 47px;
         text-align: center;
         vertical-align: middle;
         cursor: pointer;
         transition: 0.8s;
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #1E3173;
+border-radius: 24px;
         &.active{
             background-color: blue;
             color: aliceblue;
@@ -18,18 +29,126 @@
 
 .content__tabs{
     .content{
-        border: 2px solid #000;
         margin: 12;
         height: 600px;
         width: 100%;  
     }
     :first-child{
-        background-color: #f00;
+        
     }
     :last-child{
-        background-color: rgb(28, 12, 151);
+        
     }
     :nth-child(2){
-        background-color: rgb(20, 225, 71);
+      
     }
 }
+.blog {
+    position: relative;
+margin-top: 100px;
+    background: linear-gradient(102.5deg, #FFF6DA 0%, #FFDEF2 100%);
+
+    &__content {
+    }
+}
+.container {
+}
+.row {
+}
+.title {
+    margin-top: 64px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    background: linear-gradient(256.23deg, #000000 0%, #000000 98.75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.template {
+   
+}
+.slider-blog {
+
+}
+.slider-column {
+		&__image {
+       width: 100%;
+		}
+
+		// .slider-column__title
+
+		&__title {
+		
+
+		font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+margin-top: 25px;
+color: #000000;
+        }
+		&__date {
+            margin-top: 8px;
+            font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+color: #AAAAAA;
+		}
+
+		// .slider-column__button
+
+		&__button {
+            margin-top: 25px;
+		}
+}
+.btn {
+    margin-right: 12px;
+    padding: 6px 14px;
+    border: 1px solid #1E3173;
+    border-radius: 20px;
+    color:  #1E3173;
+    &:hover{
+        background-color: #8f7d7d;
+        color: #fff;
+       }
+}
+.slick-arrow{
+    width: 42px;
+    height: 42px;
+    border: none;
+    font-size: 0;
+    z-index: 10;
+    background: linear-gradient(102.5deg, #FFF6DA 0%, #FFDEF2 100%);
+  
+    
+}
+.slick-arrow.slick-prev{
+    position: absolute;
+    right: 73px;
+    top: -130px;
+    background-image: url('../img/arrow-slider1.svg') !important;
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next{
+    position: absolute;
+    right: 0;
+    top: -130px;
+  background-image: url('../img/bi_arrow-right-circle.svg');
+}
+.slick-slide{
+    padding-right: 30px;
+    min-width: 436px;
+
+}
+
+
+
+   
