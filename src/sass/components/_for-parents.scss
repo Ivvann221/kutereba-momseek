@@ -1,18 +1,26 @@
 .for-parents {
-  
-
-    // .for-parents__content
-
     &__content {
-        margin-top: 64px !important;
-        height: 515px ; 
-        background-image: url('/img/for-parents.png');
+        margin-top: 64px;
+        height: 515px; 
+        background: url('/img/for-parents.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 12px;
         padding: 0;
-       
+        @media screen and (max-width:640px) {
+            margin-top: 26px;
+            background: #1E3173;
+             
+         }
+         @media screen and (max-width:380px) {
+            height: 600px;
+             
+         }
+         @media screen and (max-width:332px) {
+            height: 640px;
+             
+         }
        
 .gradient{
     border-radius: 12px;
@@ -23,6 +31,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    @media screen and (max-width:490px) {
+      padding: 15px 12px 30px 12px;
+         
+     }
 }
 
 
@@ -34,6 +46,15 @@
         font-size: 22px;
         line-height: 100%;
         color: #FFFFFF;
+        @media screen and (max-width:992px) {
+            font-size: 17px;
+             
+         }
+         @media screen and (max-width:490px) {
+            font-size: 16px;
+            margin-top: 0px;
+             
+         }
     }
 
     // .for-parents__content_title
@@ -47,7 +68,16 @@
         color: #FFFFFF;
         margin-top: 38px;
         max-width: 520px;
-
+        @media screen and (max-width:992px) {
+            font-size: 35px;
+             
+         }
+         @media screen and (max-width:490px) {
+            font-size: 28px;
+            margin-top: 18px;
+             
+         }
+       
     }
 
     // .for-parents__content_colums
@@ -56,6 +86,10 @@
         margin-top: 112px;
         @media screen and (min-width:1400px) {
             margin-top: 135px;
+            
+        }
+        @media screen and (max-width:992px) {
+            margin-top: 39px;
             
         }
     }
@@ -68,23 +102,42 @@
 padding: 18px 33px 23px 23px;
     background: #1E3173;
     border-radius: 12px;
-   
+    @media screen and (max-width:992px) {
+        margin-bottom: 10px;
+         
+     }
+     @media screen and (max-width:640px) {
+        background-color: #fff;
+       
+     }
     &:hover{
         background-color: #fff;
         color: #1E3173;
         transition: 0.5s;
+        @media screen and (max-width:640px) {
+            background-color: #774FA4;         
+             }
     }
     &:hover .item-one__title{
         color: #1E3173;
         transition: 0.5s;
+        @media screen and (max-width:640px) {
+            color: #FFFFFF;         
+             }
     }
     &:hover .item-one__subtitle{
         color: #1E3173;
         transition: 0.5 s;
+        @media screen and (max-width:640px) {
+            color: #FFFFFF;         
+             }
     }
     &:hover svg path{
        fill:#1E3173;;
        transition: 0.5 s;
+       @media screen and (max-width:640px) {
+        fill: #FFFFFF;         
+         }
     }
    
     
@@ -99,6 +152,16 @@ line-height: 100%;
 padding-right: 83px;
 
 color: #FFFFFF;
+@media screen and (max-width:992px) {
+    font-size: 20px;
+  
+         
+ }
+ @media screen and (max-width:640px) {
+ 
+    color: #1E3173;
+         
+ }
     }
 
     &__subtitle {
@@ -111,6 +174,15 @@ line-height: 120%;
 margin-top: 17px;
 
 color: #FFFFFF;
+@media screen and (max-width:992px) {
+    font-size: 14px;
+     
+ }
+ @media screen and (max-width:640px) {
+ 
+    color: #1E3173;
+         
+ }
     }
 
     // .item-one__arrow
@@ -119,7 +191,17 @@ color: #FFFFFF;
         position: absolute;
         top: 23px;
         right: 23px;
+        svg{
+            path{
+                @media screen and (max-width:640px) {
+                    fill: #1E3173;         
+                     }
+            }
+         
+        }
+       
     }
+   
 }
 a{
     text-decoration: none;
