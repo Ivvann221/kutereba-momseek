@@ -1,32 +1,35 @@
 .hero {
     background: linear-gradient(102.5deg, #FFF6DA 0%, #FFDEF2 100%);
- &__items{
-    padding-top: 37px;
-    padding-bottom: 60px;
+
+    &__items {
+        padding-top: 37px;
+        padding-bottom: 60px;
 
 
-    &_one {
-        .title {
-            margin-top: 15px;
-            font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 56px;
-            line-height: 120%;
-            background: linear-gradient(256.23deg, #000000 0%, #000000 98.75%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            text-fill-color: transparent;
-            @media screen and(max-width:510px) {
-                font-size: 32px;
+        &_one {
+            .title {
+                margin-top: 15px;
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 56px;
+                line-height: 120%;
+                background: linear-gradient(256.23deg, #000000 0%, #000000 98.75%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+
+                @media screen and (max-width:510px) {
+                    font-size: 32px;
+                }
             }
+
         }
-        
-    }
-     &_two{
-                height: 100%;
-            }
+
+        &_two {
+            height: 100%;
+        }
+
         .subtitle {
             font-family: 'Raleway';
             font-style: normal;
@@ -34,6 +37,7 @@
             font-size: 32px;
             line-height: 38px;
             color: #000000;
+
             @media screen and(max-width:510px) {
                 font-size: 18px;
             }
@@ -52,29 +56,28 @@
             border-radius: 32px;
             height: 64px;
             background-image: url("../img/line.svg");
-            option{
-                
-            }
-            &:focus{
+
+            option {}
+
+            &:focus {
                 box-shadow: none;
                 border: none;
             }
+
             @media screen and(max-width:576px) {
-            height: 48px;
-            margin-top: 35px;
-            font-size: 18px;
+                height: 48px;
+                margin-top: 35px;
+                font-size: 18px;
             }
-            
-           
-        
-         
         }
-        .form{
-           
-            .image{
+
+        .form {
+
+            .image {
                 position: absolute;
                 left: 30px;
                 bottom: 16px;
+
                 @media screen and(max-width:510px) {
                     bottom: 10px;
                 }
@@ -82,32 +85,36 @@
         }
 
         #icon {
-          padding-left: 58px;
-          @media screen and(max-width:576px) {
-            margin-top: 15px;
+            padding-left: 58px;
+
+            @media screen and(max-width:576px) {
+                margin-top: 15px;
+            }
+
         }
-         
-                }
     }
-    .btn{
+
+    .btn {
         margin-top: 44px;
         width: 100%;
         background: #1E3173;
-border-radius: 32px;
-padding: 20px 20px;
-color: #FFFFFF;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 600;
-font-size: 26px;
-line-height: 24px;
-&:hover{
-    background-color: #101937 ;
-    transition: 0.8s;
-    
-}
-@media screen and(max-width:576px) {
-  margin-top: 15px;
-}
+        border-radius: 32px;
+        padding: 20px 20px;
+        color: #FFFFFF;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 24px;
+
+        &:hover {
+            background-color: #101937;
+            transition: 0.8s;
+
+        }
+
+        @media screen and(max-width:576px) {
+            margin-top: 15px;
+        }
     }
 }

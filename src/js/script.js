@@ -4,7 +4,27 @@ let slider = $(document).ready(function () {
     slidesToScroll: 1,
     arrows: true,
     dots: false,
-    infinite: true
+    infinite: true,
+    responsive: [
+      {
+      breakpoint: 1400,
+      settings: {
+        slidesToShow: 3,
+      }
+     },{
+
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 2,
+      }
+     },
+     { breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+      }
+      
+      }
+    ]
   });
 });
 

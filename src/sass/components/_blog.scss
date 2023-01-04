@@ -1,60 +1,65 @@
-.nav__tabs{
-   
-    .item{
+.nav__tabs {
+
+    .item {
         margin-top: 14px;
         height: 40px;
         padding: 10px 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-       margin-bottom: 47px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 47px;
         text-align: center;
         vertical-align: middle;
         cursor: pointer;
         transition: 0.8s;
         font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #1E3173;
-border-radius: 24px;
-        &.active{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #1E3173;
+        border-radius: 24px;
+
+        &.active {
             background-color: blue;
             color: aliceblue;
             transition: 0.8s;
+
         }
+
+        @media screen and (max-width:480px) {
+            font-size: 14px;
+            padding: 5px 12px;
+        }
+
     }
 }
 
-.content__tabs{
-    .content{
+.content__tabs {
+    .content {
         margin: 12;
-        height: 600px;
-        width: 100%;  
+        width: 100%;
+        padding-bottom: 45px;
     }
-    :first-child{
-        
-    }
-    :last-child{
-        
-    }
-    :nth-child(2){
-      
-    }
+
+    :first-child {}
+
+    :last-child {}
+
+    :nth-child(2) {}
 }
+
 .blog {
     position: relative;
-margin-top: 100px;
+    margin-top: 100px;
     background: linear-gradient(102.5deg, #FFF6DA 0%, #FFDEF2 100%);
 
-    &__content {
+    @media screen and (max-width:567px) {
+        margin-top: 50px;
+
     }
 }
-.container {
-}
-.row {
-}
+
 .title {
     margin-top: 64px;
     font-family: 'Raleway';
@@ -66,89 +71,87 @@ margin-top: 100px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
-}
-.template {
-   
-}
-.slider-blog {
 
+    @media screen and (max-width:576px) {
+        margin-top: 20px;
+        font-size: 36px;
+    }
 }
+
 .slider-column {
-		&__image {
-       width: 100%;
-		}
+    &__image {
+        width: 100%;
+    }
 
-		// .slider-column__title
+    &__title {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 25px;
+        color: #000000;
+    }
 
-		&__title {
-		
+    &__date {
+        margin-top: 8px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
 
-		font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 28px;
-margin-top: 25px;
-color: #000000;
-        }
-		&__date {
-            margin-top: 8px;
-            font-family: 'Raleway';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
+        color: #AAAAAA;
+    }
 
-color: #AAAAAA;
-		}
-
-		// .slider-column__button
-
-		&__button {
-            margin-top: 25px;
-		}
+    &__button {
+        margin-top: 25px;
+    }
 }
+
 .btn {
     margin-right: 12px;
     padding: 6px 14px;
     border: 1px solid #1E3173;
     border-radius: 20px;
-    color:  #1E3173;
-    &:hover{
-        background-color: #8f7d7d;
+    color: #1E3173;
+    
+    &:hover {
+        background-color: #1E3173;
         color: #fff;
-       }
+    }
 }
-.slick-arrow{
+
+.slick-arrow {
     width: 42px;
     height: 42px;
     border: none;
     font-size: 0;
     z-index: 10;
     background: linear-gradient(102.5deg, #FFF6DA 0%, #FFDEF2 100%);
-  
-    
+
+    @media screen and (max-width:992px) {
+        display: none !important;
+    }
+
 }
-.slick-arrow.slick-prev{
+
+.slick-arrow.slick-prev {
     position: absolute;
     right: 73px;
     top: -130px;
     background-image: url('../img/arrow-slider1.svg') !important;
 }
-/* Стрелка вправо */
-.slick-arrow.slick-next{
+
+.slick-arrow.slick-next {
     position: absolute;
     right: 0;
     top: -130px;
-  background-image: url('../img/bi_arrow-right-circle.svg');
-}
-.slick-slide{
-    padding-right: 30px;
-    min-width: 436px;
-
+    background-image: url('../img/bi_arrow-right-circle.svg');
 }
 
+.slick-slide {
+    padding: 0 15px;
 
 
-   
+}
